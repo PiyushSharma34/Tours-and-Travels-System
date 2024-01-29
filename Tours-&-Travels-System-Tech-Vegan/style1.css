@@ -1,0 +1,109 @@
+@charset "utf-8";
+
+
+body
+{
+	background-image:url(images/goa.jpg) ;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	/* background-size: cover; */
+	margin:80px;
+}
+#header
+{
+	background-color:rgba(137, 125, 141, 0.6);
+	
+	/* background:linear-gradient( rgba(13, 233, 49, 0.8) , rgba(204,153,0,0.8) ); */
+	height:60px;
+	box-shadow:0px 0px 100px #e13131;
+    
+}
+.headingMain
+{
+	font-family:"Segoe UI";
+	font-size:38px;
+	color:#1a1414;
+	text-shadow:1px 1px 1px #000000;
+    color: rgb(255, 255, 255)
+    
+}
+
+#header:hover{
+
+border-radius: 20px;
+background-color: rgb(5, 140, 249);
+font-size:40px;
+color: white;
+}
+
+.design
+{
+		padding:10px;
+		box-shadow:0px 0px 40px #ef0000;
+		border: 3px ridge black;
+		border-radius: 20px;
+		height: 250px;
+		filter: blur(-1px);
+	
+		
+		
+}
+
+
+.labels
+{
+	font-family:"Segoe UI";
+	font-style:italic;
+	font-size:24px;
+	color:#000000;
+	font-weight: bolder;
+}
+
+
+.fields
+{
+	background-color:rgb(251, 250, 255);
+	border:2px solid #C60;
+	color:#000000;
+	padding:5px;
+	font-size: 18px;
+}
+a.link:link{font-family:"Segoe UI";font-size:16px;color:#3606e6;text-decoration:none;font-weight: bolder;}
+a.link:active{font-family:"Segoe UI";font-size:16px;color:#000;text-decoration:none;}
+a.link:visited{font-family:"Segoe UI";font-size:16px;color:#000;text-decoration:none;}
+a.link:hover{font-family:"Segoe UI";font-size:20px;color:#0c30e4;text-decoration:none;}
+
+
+
+.reg:hover {
+	color:red;
+	background-color:rgb(199, 201, 207);
+}
+
+
+.reg{
+	font-size:40px;
+	border:5px ridge gray;
+	height:50px;
+	width:70%;
+	border-radius:105px;
+	text-align:center"
+
+}
+.info
+{
+	font-family:"Arial Narrow";
+	color:#333;
+	font-size:16px;
+}
+a.cmd:link{font-family:"Segoe UI";font-size:20px;color:#000;text-decoration:none;padding:10px;border-radius:10px;}
+a.cmd:active{font-family:"Segoe UI";font-size:20px;color:#000;text-decoration:none;}
+a.cmd:visited{font-family:"Segoe UI";font-size:20px;color:#000;text-decoration:none;}
+a.cmd:hover{font-family:"Segoe UI";font-size:20px;color:#170bfd;text-decoration:none;}
+
+.subHead{
+font-size: 25px;
+
+
+}
+
